@@ -12,7 +12,7 @@ public class disp_dtds : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		box.text = ""+(long)globVar.incr_auto+"/s";
+		box.text = ""+((long)globVar.incr_auto).ToString("n0")+"/s";
 
 	}
 }

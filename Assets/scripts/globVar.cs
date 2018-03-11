@@ -5,6 +5,7 @@ using System;
 
 public class globVar : MonoBehaviour {
 	public static double drinks = 0;
+	public static double totalDrinks = 0;
 	public static double money = 1000;
 	public static long incr_click = 1; //default click
 	public static long incr_auto = 0; //autoclick

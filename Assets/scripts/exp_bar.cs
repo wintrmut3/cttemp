@@ -10,13 +10,12 @@ public class exp_bar : MonoBehaviour {
 	private float percExp;
 	// Use this for initialization
 	void Start () {
-
 		Image bar = GetComponent<Image>();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		globVar.exp = (long)globVar.drinks;
+		globVar.exp = (long)globVar.totalDrinks;
 		percExp = (globVar.exp - expPrev)/(expNext*1.0f);
 		//Debug.Log ("exp "+globVar.exp+" perc "+percExp);
 		bar.fillAmount = percExp;

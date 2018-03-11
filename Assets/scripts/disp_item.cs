@@ -36,7 +36,7 @@ public class disp_item : MonoBehaviour {
 		tLvl.text = qLvl+"";
 		tName.text = sName;
 		tEffect.text  = sEffect;
-		tCost.text = ""+ cost;
+		tCost.text = ""+ (cost).ToString("n0");
 
 		//alpha = locker.GetComponent<Image>().color.a;
 		if  (cost > globVar.drinks){ //to disable the button if inadequate funds
