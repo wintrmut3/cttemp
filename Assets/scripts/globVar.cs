@@ -21,4 +21,21 @@ public class globVar : MonoBehaviour {
 	public static long exp = 0; // experience
 	public static int level = 0;
 
+	public static bool[] acv = new bool[] {
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false,
+		false
+	};// achievements
 }
