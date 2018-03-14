@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class exp_bar : MonoBehaviour {
 	public Image bar;
+	public AudioClip lvUSound;
+	public AudioSource lvuAS;
 	private long expNext = 100; //next level req
 	private long expPrev = 0; //sum of previous experience, temporary
 	private float percExp;
@@ -27,5 +29,6 @@ public class exp_bar : MonoBehaviour {
 		expPrev = globVar.exp;
 		expNext *=(long) Mathf.Pow(globVar.lvlMulti,(float)globVar.level);
 		globVar.level ++;
+		lvuAS.GetComponent<AudioSource> ().PlayOneShot (lvUSound);
 	}
 }

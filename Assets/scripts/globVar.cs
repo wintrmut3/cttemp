@@ -14,7 +14,8 @@ public class globVar : MonoBehaviour {
 	public static long totalClicks = 0;//total number of clicks
     public static int numAcv = 0;//how many achievements have been attained?
 
-	public static bool openWindow = false; // is there another window open?
+	public static bool rewCurr = false; // is there another reward currently open?
+
 
 	public static long price = 1; //price per drink
 	public static float multiplier = 1.09f;//cost multiplier
