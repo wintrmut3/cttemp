@@ -48,8 +48,8 @@ public class review_rewards : MonoBehaviour {
                // Debug.Log("NS:" + numStars);
             }
 
-            //period = (int)Random.Range(30f, 75f);
-            period = 0;
+            period = (int)Random.Range(30f, 75f);
+            //period = 0;
             nextActionTime += period; //make this random next time
 
 

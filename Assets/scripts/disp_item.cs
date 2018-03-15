@@ -24,8 +24,6 @@ public class disp_item : MonoBehaviour {
 	public long baseCost; //cost for first unit
 	private long cost;//cost after mutliplier
 
-	//private float alpha;
-
 	// Update is called once per frame
 	void Update () {
 		cost = (long)((baseCost*(Mathf.Pow(globVar.multiplier,qLvl)))); //managing costs
@@ -42,10 +40,16 @@ public class disp_item : MonoBehaviour {
 		if  (cost > globVar.drinks){ //to disable the button if inadequate funds
 			buyButton.GetComponent<Button>().interactable = false;		//toggle locked only ONCE
 		}
-		else{
-			buyButton.GetComponent<Button>().interactable = true;
-			locked = false;
-		}
+        else
+        {
+            buyButton.GetComponent<Button>().interactable = true;
+            locked = false;
+        }
+        if (qLvl != 0)
+        {
+            locked = false;
+        }
+		
 		//lock color setting
 		if (locked){
 			c.a = 1;
@@ -54,12 +58,9 @@ public class disp_item : MonoBehaviour {
 			c.a = 0;
 		}
 		locker.color = c;
-
 	}
 	public void Buy(){ //activatebybutton
 		globVar.drinks -= cost;
 		qLvl +=1;
-		globVar.incr_auto += autoIncrAmount;
-		globVar.incr_click += manuIncrAmount;
 	}
 }
