@@ -11,8 +11,8 @@ public class diagnostics : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		Debug.Log("UPG Counter: "+globVar.upg_counter);
-		Debug.Log("FLV Counter: "+globVar.flv_counter);
+		//Debug.Log("UPG Counter: "+globVar.upg_counter);
+		//Debug.Log("FLV Counter: "+globVar.flv_counter);
 		/*Debug.Log("UPG Counter: "+globVar.upg_counter);
 		Debug.Log("UPG Counter: "+globVar.upg_counter);
 		Debug.Log("UPG Counter: "+globVar.upg_counter);

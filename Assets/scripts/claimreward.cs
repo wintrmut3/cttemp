@@ -10,10 +10,10 @@ public class claimreward : MonoBehaviour {
     public AudioClip acl;
     public void claim()
     {
-        int numStars = review_rewards.numStars;
         long reward = review_rewards.reward;
 
         globVar.drinks += reward;
+        globVar.totalDrinks += reward;
         Debug.Log("Rew = " + reward);
 
         globVar.rewCurr = false;//another can now spawn

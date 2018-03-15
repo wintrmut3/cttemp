@@ -11,7 +11,9 @@ public class globVar : MonoBehaviour {
 	public static long incr_auto = 0; //autoclick
 	public static long upg_counter = 0;//initstate
 	public static long flv_counter = 0;//initstate
-	public static long totalClicks = 0;//total number of clicks
+    public static long stg_counter = 0;
+
+    public static long totalClicks = 0;//total number of clicks
     public static int numAcv = 0;//how many achievements have been attained?
 
 	public static bool rewCurr = false; // is there another reward currently open?

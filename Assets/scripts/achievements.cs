@@ -20,7 +20,7 @@ public class achievements : MonoBehaviour {
 		achBox.SetActive (true);
 		globVar.numAcv++;
 		audioSource.GetComponent<AudioSource> ().PlayOneShot (acvSound,0.5f);
-		Debug.Log ("ACHIEVEMENT UNLOCKED!\n" + acv);
+		//Debug.Log ("ACHIEVEMENT UNLOCKED!\n" + acv);
 		tbox.text = "ACHIEVEMENT UNLOCKED!\n" + acv;
 		yield return new WaitForSeconds(3);
 		achBox.SetActive (false);

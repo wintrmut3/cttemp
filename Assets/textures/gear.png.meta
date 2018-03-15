@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 5e5b852aeb6841241a0a7a14a511c29a
-timeCreated: 1520696947
+guid: 12f9faed87ed7714fa89985281fc2022
+timeCreated: 1521069713
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: main_button_4_0
-    21300002: main_button_4_1
+    21300000: gear_0
+    21300002: gear_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: main_button_4_0
+      name: gear_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,13 +116,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: main_button_4_1
+      name: gear_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
-        width: 33
-        height: 33
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

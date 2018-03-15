@@ -24,7 +24,7 @@ public class review_rewards : MonoBehaviour {
 
 
         int t = (int)Time.time; // time in seconds afte rstart of game
-        if (t > nextActionTime) 
+        if (t > nextActionTime && globVar.drinks >1) 
         {
             if (globVar.rewCurr == false)
             {
@@ -45,10 +45,10 @@ public class review_rewards : MonoBehaviour {
 
                 revBox.SetActive(true);//make the button active
                 numStars = (int)Random.Range(3f, 5f) + 1; //regen random review
-                Debug.Log("NS:" + numStars);
+               // Debug.Log("NS:" + numStars);
             }
 
-            period = (int)Random.Range(1f, 3f);
+            period = (int)Random.Range(30f, 75f);
             nextActionTime += period; //make this random next time
 
 
