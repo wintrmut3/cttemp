@@ -37,7 +37,7 @@ public class review_rewards : MonoBehaviour {
                 else if (numStars == 5)
                 {
                     revBox.GetComponent<Image>().sprite = fistar;
-                    reward = globVar.incr_auto * (long)Random.Range(3.5f, 5f) + 100;
+                    reward = globVar.incr_auto * (long)Random.Range(35f, 50f) + 100;
 
                 }
 
@@ -48,7 +48,8 @@ public class review_rewards : MonoBehaviour {
                // Debug.Log("NS:" + numStars);
             }
 
-            period = (int)Random.Range(30f, 75f);
+            //period = (int)Random.Range(30f, 75f);
+            period = 0;
             nextActionTime += period; //make this random next time
 
 

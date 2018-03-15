@@ -16,8 +16,8 @@ public class disp_Mt : MonoBehaviour {
 	void Update () {
 
 		//int drinks = GameObject.Find("Button").getComponent("onClick").drinks;
-		money = (long)globVar.money;//Mathf.RoundToInt((float)globVar.money);
-		box.text = ""+money.ToString("n0");
+		//money = (long)globVar.money;//Mathf.RoundToInt((float)globVar.money);
+		//box.text = ""+money.ToString("n0");
 
 	}
 }

@@ -8,7 +8,14 @@ public class volume_slider : MonoBehaviour {
         
     }
     // Update is called once per frame
-    public void ChangeAudio (float vol) {
-        AudioListener.volume = vol;
-	}
+    public void ChangeAudio () {
+        if (AudioListener.volume == 1)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
+    }
 }

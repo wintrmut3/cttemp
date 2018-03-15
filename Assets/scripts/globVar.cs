@@ -6,7 +6,7 @@ using System;
 public class globVar : MonoBehaviour {
 	public static double drinks = 0;
 	public static double totalDrinks = 0;
-	public static double money = 1000;
+	//public static double money = 1000;
 	public static long incr_click = 1; //default click
 	public static long incr_auto = 0; //autoclick
 	public static long upg_counter = 0;//initstate
@@ -26,21 +26,22 @@ public class globVar : MonoBehaviour {
 	public static long exp = 0; // experience
 	public static int level = 0;
 
-	public static bool[] acv = new bool[] {
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false,
-		false
-	};// achievements
+    public static bool[] acv = new bool[] {
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    };// achievements
 }

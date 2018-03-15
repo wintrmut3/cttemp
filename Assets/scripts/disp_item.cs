@@ -20,7 +20,7 @@ public class disp_item : MonoBehaviour {
 
 	public long autoIncrAmount;
 	public long manuIncrAmount;
-	private int qLvl; // the amount owned
+	public int qLvl; // the amount owned
 	public long baseCost; //cost for first unit
 	private long cost;//cost after mutliplier
 

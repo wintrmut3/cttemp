@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 
 public class buy_button : MonoBehaviour {
-	public GameObject othgo;
+    /*
+    public GameObject othgo;
 	public GameObject button;
 	private long cost = 0;
 	public long incr_amount;//amount to increment autoclick by
@@ -32,4 +33,5 @@ public class buy_button : MonoBehaviour {
 			button.GetComponent<Button>().interactable = true;
 		}
 	}
+    */
 }
