@@ -23,6 +23,6 @@ public class popup_settings : MonoBehaviour {
         {
             panel.gameObject.SetActive(false);
         }
-        Debug.Log(globVar.stg_counter);
+        //Debug.Log(globVar.stg_counter);
     }
 }

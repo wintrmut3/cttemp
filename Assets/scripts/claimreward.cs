@@ -14,7 +14,7 @@ public class claimreward : MonoBehaviour {
 
         globVar.drinks += reward;
         globVar.totalDrinks += reward;
-        Debug.Log("Rew = " + reward);
+        //Debug.Log("Rew = " + reward);
 
         globVar.rewCurr = false;//another can now spawn
         audios.GetComponent<AudioSource>().PlayOneShot(acl);
