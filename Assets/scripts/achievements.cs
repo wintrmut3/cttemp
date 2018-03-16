@@ -44,9 +44,9 @@ public class achievements : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-        int numSJ = spaceJellyContainer.GetComponent<disp_item>().qLvl;
-        int numImp = impulsepressContainer.GetComponent<disp_item>().qLvl;
-        int numFTL = ftlPressContainer.GetComponent<disp_item>().qLvl;
+        int numSJ = globVar.qItem[14];
+        int numImp = globVar.qItem[13];
+        int numFTL = globVar.qItem[22];
 
         //set each achievement once!
         if (globVar.drinks >= 10 && globVar.acv [0] == false) { //strawberry

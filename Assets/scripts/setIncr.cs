@@ -12,13 +12,13 @@ public class setIncr : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         long totalIncrAuto = 0;
-        long totalIncrClick = 0;
+        long totalIncrClick = 1;
         int quantity = 0;
         long indivIA = 0;
         long indivIC = 0;
         for (int i = 0; i < 25; i++)
         {
-            quantity = items[i].GetComponent<disp_item>().qLvl;
+            quantity = globVar.qItem[i];
 
             indivIA = items[i].GetComponent<disp_item>().autoIncrAmount;
 

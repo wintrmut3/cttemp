@@ -25,6 +25,35 @@ public class globVar : MonoBehaviour {
 	public static long exp = 0; // experience
 	public static int level = 0;
 
+    public static int[] qItem = new int[]
+    {
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    };
+
     public static bool[] acv = new bool[] {
         false,
         false,
@@ -43,7 +72,4 @@ public class globVar : MonoBehaviour {
         false,
         false
     };// achievements
-
-
-
 }

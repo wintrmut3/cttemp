@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class saver : MonoBehaviour {
-    public GameObject[] itemsNs = new GameObject[25];
-    public static GameObject[] items = new GameObject[25];
-    private void Update()
-    {
-        items = itemsNs;
-    }
+
+
     public static void Save()
     {
-        int[] itemNums = new int[25];
-        string[] itemNumsStringArray = new string[25];
+
 
         string[] acvStr = new string[globVar.acv.Length];
 
@@ -37,15 +32,9 @@ public class saver : MonoBehaviour {
         PlayerPrefs.SetInt("Level", globVar.level);
 
         PlayerPrefs.SetString("BooleanAchievements", string.Join(",", acvStr, 0, 16));
-        Debug.Log(PlayerPrefs.GetString("BooleanAchievements", "0").ToString());
+        //Debug.Log(PlayerPrefs.GetString("BooleanAchievements", "0").ToString());
        
         //SAVING NUMBER OF ITEMS
-        for (int i = 0; i < 25; i++)
-        {
-            itemNums[i] = items[i].GetComponent<disp_item>().qLvl;
-            itemNumsStringArray[i] = itemNums[i].ToString();
-        }
-        PlayerPrefs.SetString("itemNumString", string.Join(",", itemNumsStringArray));
 
 
         PlayerPrefs.Save();
@@ -61,7 +50,6 @@ public class saver : MonoBehaviour {
             Debug.Log(acvStr[i]);
         }
         */
-        string[] itemNumsStringArr = PlayerPrefs.GetString("ItemNumString", "0").Split(',');
         string[] acvStringArr = PlayerPrefs.GetString("BooleanAchievements", "0").Split(',');
         bool[] acvSaved = new bool[globVar.acv.Length];
         for (int i = 0; i < globVar.acv.Length; i++)
@@ -76,13 +64,10 @@ public class saver : MonoBehaviour {
             items[i].GetComponent<disp_item>().qLvl = System.Convert.ToInt32(itemNumsStringArr[i]);
         }
         */
-        for (int i = 0; i < 25; i++)
-        {
-            items[i].GetComponent<disp_item>().qLvl = (int)Random.Range(3, 10);
-        }
 
-        globVar.drinks = long.Parse(PlayerPrefs.GetString("drinks", "0"));
-        globVar.totalDrinks = long.Parse(PlayerPrefs.GetString("total drinks", "0"));
+
+        globVar.drinks = double.Parse(PlayerPrefs.GetString("drinks", "0"));
+        globVar.totalDrinks = double.Parse(PlayerPrefs.GetString("total drinks", "0"));
         globVar.totalClicks = long.Parse(PlayerPrefs.GetString("total clicks", "0"));
         globVar.incr_auto = long.Parse(PlayerPrefs.GetString("dps", "0"));
         globVar.incr_click = long.Parse(PlayerPrefs.GetString("dpt", "0"));

@@ -628,13 +628,13 @@ MonoBehaviour:
   tName: {fileID: 448916622}
   tEffect: {fileID: 1050452177}
   tCost: {fileID: 1385265416}
+  index: 9
   buyButton: {fileID: 496500675}
   locker: {fileID: 681612760}
   sName: Fresh Produce
   sEffect: +6,500 BBT/s
   autoIncrAmount: 6500
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 4500000
 --- !u!1 &22680085
 GameObject:
@@ -1034,13 +1034,13 @@ MonoBehaviour:
   tName: {fileID: 1412392936}
   tEffect: {fileID: 1646959842}
   tCost: {fileID: 1343043884}
+  index: 3
   buyButton: {fileID: 862746607}
   locker: {fileID: 820382195}
   sName: Enhanced Black Tea
   sEffect: +15 BBT/s
   autoIncrAmount: 15
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 5000
 --- !u!1 &48300488
 GameObject:
@@ -1077,11 +1077,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 48300488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.680176, y: -312.19736, z: -4.3741}
+  m_LocalPosition: {x: 378.68018, y: 327.80264, z: -4.3741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2137305969}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &48300490
 MonoBehaviour:
@@ -1342,13 +1342,13 @@ MonoBehaviour:
   tName: {fileID: 567953244}
   tEffect: {fileID: 1287103842}
   tCost: {fileID: 167763888}
+  index: 22
   buyButton: {fileID: 283692790}
   locker: {fileID: 1783795620}
   sName: FTL Press
   sEffect: +20,000,000 BBT/tap
   autoIncrAmount: 0
   manuIncrAmount: 20000000
-  qLvl: 0
   baseCost: 360000000000
 --- !u!1 &57061760
 GameObject:
@@ -1956,13 +1956,13 @@ MonoBehaviour:
   tName: {fileID: 1869103174}
   tEffect: {fileID: 1618173302}
   tCost: {fileID: 227552051}
+  index: 7
   buyButton: {fileID: 1656523373}
   locker: {fileID: 1249189025}
   sName: Crushed Cookies
   sEffect: +750 BBT/s
   autoIncrAmount: 750
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 360000
 --- !u!1 &96986919
 GameObject:
@@ -5188,13 +5188,13 @@ MonoBehaviour:
   tName: {fileID: 312694482}
   tEffect: {fileID: 619432620}
   tCost: {fileID: 1954153345}
+  index: 4
   buyButton: {fileID: 1752237344}
   locker: {fileID: 2045500740}
   sName: Mango Pudding
   sEffect: +64 BBT/s
   autoIncrAmount: 64
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 22000
 --- !u!1 &231262984
 GameObject:
@@ -5468,13 +5468,13 @@ MonoBehaviour:
   tName: {fileID: 1928114719}
   tEffect: {fileID: 497422514}
   tCost: {fileID: 901441412}
+  index: 19
   buyButton: {fileID: 1445579327}
   locker: {fileID: 1825717852}
   sName: Self Replication
   sEffect: +45,000,000 BBT/s
   autoIncrAmount: 45000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 56000000000
 --- !u!1 &236377268
 GameObject:
@@ -7381,13 +7381,13 @@ MonoBehaviour:
   tName: {fileID: 316047523}
   tEffect: {fileID: 2055248160}
   tCost: {fileID: 252670876}
+  index: 13
   buyButton: {fileID: 2101695771}
   locker: {fileID: 1467790836}
   sName: Impulse Press
   sEffect: +25,000 BBT/tap
   autoIncrAmount: 0
   manuIncrAmount: 25000
-  qLvl: 0
   baseCost: 100000000
 --- !u!1 &325201827
 GameObject:
@@ -9285,7 +9285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &387822804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9298,7 +9298,7 @@ RectTransform:
   m_Children:
   - {fileID: 1839565996}
   m_Father: {fileID: 1046743756}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11707,13 +11707,13 @@ MonoBehaviour:
   tName: {fileID: 1792743428}
   tEffect: {fileID: 713295453}
   tCost: {fileID: 325201828}
+  index: 16
   buyButton: {fileID: 1661835936}
   locker: {fileID: 1712349173}
   sName: Hyperthreaded Jelly
   sEffect: +5,000,000 BBT/s
   autoIncrAmount: 5000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 3000000000
 --- !u!1 &460436425
 GameObject:
@@ -12408,136 +12408,14 @@ MonoBehaviour:
   tName: {fileID: 1772721206}
   tEffect: {fileID: 417405944}
   tCost: {fileID: 1921098314}
+  index: 5
   buyButton: {fileID: 781426956}
   locker: {fileID: 1364644301}
   sName: RoboPress
   sEffect: +50 BBT/tap
   autoIncrAmount: 0
   manuIncrAmount: 50
-  qLvl: 0
   baseCost: 50000
---- !u!1 &506010405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 506010406}
-  - component: {fileID: 506010409}
-  - component: {fileID: 506010408}
-  - component: {fileID: 506010407}
-  m_Layer: 5
-  m_Name: QuitToMenuB
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &506010406
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506010405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1409373320}
-  m_Father: {fileID: 1046743756}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000005722, y: -251.41064}
-  m_SizeDelta: {x: 450.2, y: 89.2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &506010407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506010405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 21300002, guid: 75918bfe43985c5439cd555295fd6dba, type: 3}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 506010408}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 48300500}
-        m_MethodName: quitMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &506010408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506010405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.50735295, b: 0.50735295, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: edb4c064cf2e0d9498e9de16c2556ab9, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &506010409
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 506010405}
 --- !u!1 &508463806
 GameObject:
   m_ObjectHideFlags: 0
@@ -18662,7 +18540,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -20735,13 +20613,13 @@ MonoBehaviour:
   tName: {fileID: 900782034}
   tEffect: {fileID: 462236743}
   tCost: {fileID: 1586751655}
+  index: 10
   buyButton: {fileID: 1972273299}
   locker: {fileID: 2047356868}
   sName: Dragoneyes
   sEffect: +25,000 BBT/s
   autoIncrAmount: 25000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 20000000
 --- !u!1 &751857213
 GameObject:
@@ -21860,13 +21738,13 @@ MonoBehaviour:
   tName: {fileID: 1531112424}
   tEffect: {fileID: 91476674}
   tCost: {fileID: 591238658}
+  index: 2
   buyButton: {fileID: 861779534}
   locker: {fileID: 1323801513}
   sName: Coconut Jelly
   sEffect: +4 BBT/s
   autoIncrAmount: 4
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 1000
 --- !u!1 &787116966
 GameObject:
@@ -22125,32 +22003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d10cd680ad33d419c00289b4f07198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemsNs:
-  - {fileID: 1283011536}
-  - {fileID: 1763183980}
-  - {fileID: 785659269}
-  - {fileID: 46796060}
-  - {fileID: 229057900}
-  - {fileID: 502880779}
-  - {fileID: 2128333931}
-  - {fileID: 96643692}
-  - {fileID: 1074120823}
-  - {fileID: 22192857}
-  - {fileID: 751396920}
-  - {fileID: 1085269645}
-  - {fileID: 2057529354}
-  - {fileID: 316613888}
-  - {fileID: 1980593728}
-  - {fileID: 1329736965}
-  - {fileID: 459602752}
-  - {fileID: 1027421980}
-  - {fileID: 1998295022}
-  - {fileID: 234685308}
-  - {fileID: 2067887117}
-  - {fileID: 900274564}
-  - {fileID: 54115386}
-  - {fileID: 1855467068}
-  - {fileID: 1087081457}
 --- !u!4 &797715553
 Transform:
   m_ObjectHideFlags: 0
@@ -22504,7 +22356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &812543950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24556,13 +24408,13 @@ MonoBehaviour:
   tName: {fileID: 1022388373}
   tEffect: {fileID: 612037830}
   tCost: {fileID: 976580980}
+  index: 21
   buyButton: {fileID: 743207112}
   locker: {fileID: 1524957461}
   sName: Lunar Tea Leaves
   sEffect: +48,000,000 BBT/s
   autoIncrAmount: 48000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 1000000000000
 --- !u!1 &900782032
 GameObject:
@@ -26948,7 +26800,7 @@ RectTransform:
   - {fileID: 546078364}
   - {fileID: 226768489}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -27261,13 +27113,13 @@ MonoBehaviour:
   tName: {fileID: 2095147410}
   tEffect: {fileID: 1225885779}
   tCost: {fileID: 438414450}
+  index: 17
   buyButton: {fileID: 2052420633}
   locker: {fileID: 1150568324}
   sName: Black Hole Boba
   sEffect: +16,000,000 BBT/s
   autoIncrAmount: 16000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 17000000000
 --- !u!1 &1028403295
 GameObject:
@@ -27723,12 +27575,11 @@ RectTransform:
   - {fileID: 1373731631}
   - {fileID: 1841576251}
   - {fileID: 1358070572}
-  - {fileID: 506010406}
   - {fileID: 1383795016}
   - {fileID: 1103214637}
   - {fileID: 387822804}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -28650,7 +28501,7 @@ RectTransform:
   - {fileID: 1364579669}
   - {fileID: 1074573582}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -28782,13 +28633,13 @@ MonoBehaviour:
   tName: {fileID: 1508711463}
   tEffect: {fileID: 1878579665}
   tCost: {fileID: 1055005082}
+  index: 8
   buyButton: {fileID: 1325813669}
   locker: {fileID: 1540387993}
   sName: Rainbow Jelly
   sEffect: +2,000 BBT/s
   autoIncrAmount: 2000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 1000000
 --- !u!1 &1074573581
 GameObject:
@@ -29006,7 +28857,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1085269645
 GameObject:
@@ -29064,13 +28915,13 @@ MonoBehaviour:
   tName: {fileID: 435759866}
   tEffect: {fileID: 722931518}
   tCost: {fileID: 800366329}
+  index: 11
   buyButton: {fileID: 508463806}
   locker: {fileID: 749886789}
   sName: Explosive Boba
   sEffect: +40,000 BBT/s
   autoIncrAmount: 40000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 38500000
 --- !u!1 &1087081457
 GameObject:
@@ -29128,13 +28979,13 @@ MonoBehaviour:
   tName: {fileID: 233524166}
   tEffect: {fileID: 1337516812}
   tCost: {fileID: 749487621}
+  index: 24
   buyButton: {fileID: 1699392477}
   locker: {fileID: 873543295}
   sName: Hypernova Infusion
   sEffect: +40,000,000,000 BBT/s
   autoIncrAmount: 40000000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 64000000000000
 --- !u!1 &1095242270
 GameObject:
@@ -29222,7 +29073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1103214637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29235,7 +29086,7 @@ RectTransform:
   m_Children:
   - {fileID: 984224603}
   m_Father: {fileID: 1046743756}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29495,7 +29346,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -32415,13 +32266,13 @@ MonoBehaviour:
   tName: {fileID: 681877126}
   tEffect: {fileID: 1514781760}
   tCost: {fileID: 1504755817}
+  index: 0
   buyButton: {fileID: 1822103855}
   locker: {fileID: 812543950}
   sName: Tea Press V0.4
   sEffect: +1 BBT/tap
   autoIncrAmount: 0
   manuIncrAmount: 1
-  qLvl: 0
   baseCost: 100
 --- !u!1 &1284227944
 GameObject:
@@ -33953,13 +33804,13 @@ MonoBehaviour:
   tName: {fileID: 469865257}
   tEffect: {fileID: 1602534179}
   tCost: {fileID: 1466651375}
+  index: 15
   buyButton: {fileID: 2084973275}
   locker: {fileID: 1834577081}
   sName: Infused Ichor
   sEffect: +1,200,000 BBT/s
   autoIncrAmount: 1200000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 500000000
 --- !u!1 &1330721368
 GameObject:
@@ -34975,6 +34826,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1395457465}
+        m_MethodName: clearAll
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1362012653
@@ -35388,7 +35250,7 @@ RectTransform:
   - {fileID: 585061893}
   - {fileID: 1490093758}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -35677,11 +35539,11 @@ RectTransform:
   m_Children:
   - {fileID: 715688714}
   m_Father: {fileID: 1046743756}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -383.87006}
+  m_AnchoredPosition: {x: 0, y: 245}
   m_SizeDelta: {x: 450.2, y: 89.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383795017
@@ -35725,6 +35587,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 48300500}
         m_MethodName: quitB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1395457465}
+        m_MethodName: clearAll
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35919,13 +35792,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1395457464}
+  - component: {fileID: 1395457465}
   m_Layer: 5
   m_Name: shop_UI_master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1395457464
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35939,13 +35813,24 @@ RectTransform:
   - {fileID: 721094009}
   - {fileID: 771765593}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.0014953613, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1395457465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395457463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a32bff97f127344dbb1c86958a2d2f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397536958
 GameObject:
   m_ObjectHideFlags: 0
@@ -36281,80 +36166,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405982585}
---- !u!1 &1409373319
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1409373320}
-  - component: {fileID: 1409373322}
-  - component: {fileID: 1409373321}
-  m_Layer: 5
-  m_Name: QuitToMenuT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1409373320
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1409373319}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 506010406}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.025}
-  m_SizeDelta: {x: 0, y: 0.050003}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1409373321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1409373319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.691}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 93f480847dc7cb848b3b1bb58827e1d5, type: 3}
-    m_FontSize: 71
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 7
-    m_MaxSize: 71
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Quit To Menu
---- !u!222 &1409373322
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1409373319}
 --- !u!1 &1412392934
 GameObject:
   m_ObjectHideFlags: 0
@@ -36727,7 +36538,7 @@ RectTransform:
   m_Children:
   - {fileID: 1375035496}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -37474,7 +37285,7 @@ RectTransform:
   - {fileID: 1554217659}
   - {fileID: 961244990}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -38761,7 +38572,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -43390,7 +43201,7 @@ RectTransform:
   - {fileID: 1362012651}
   - {fileID: 1418083253}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -43896,13 +43707,13 @@ MonoBehaviour:
   tName: {fileID: 835326248}
   tEffect: {fileID: 523701854}
   tCost: {fileID: 1657230334}
+  index: 1
   buyButton: {fileID: 1684625235}
   locker: {fileID: 207505268}
   sName: Improved Boba
   sEffect: +1 BBT/s
   autoIncrAmount: 1
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 250
 --- !u!1 &1766820239
 GameObject:
@@ -46024,13 +45835,13 @@ MonoBehaviour:
   tName: {fileID: 1546892613}
   tEffect: {fileID: 1524918039}
   tCost: {fileID: 104242219}
+  index: 23
   buyButton: {fileID: 2138545128}
   locker: {fileID: 164835199}
   sName: Protean Cider
   sEffect: +3,140,000,000 BBT/s
   autoIncrAmount: 3140000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 8000000000000
 --- !u!1 &1869103172
 GameObject:
@@ -48959,13 +48770,13 @@ MonoBehaviour:
   tName: {fileID: 827044553}
   tEffect: {fileID: 368866536}
   tCost: {fileID: 1890836386}
+  index: 14
   buyButton: {fileID: 1619707406}
   locker: {fileID: 2128450667}
   sName: Space Jelly
   sEffect: +500,000 BBT/s
   autoIncrAmount: 500000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 120000000
 --- !u!1 &1980681465
 GameObject:
@@ -49173,13 +48984,13 @@ MonoBehaviour:
   tName: {fileID: 653665957}
   tEffect: {fileID: 239608982}
   tCost: {fileID: 2039431746}
+  index: 18
   buyButton: {fileID: 113083686}
   locker: {fileID: 2138068581}
   sName: Starcore Sugar
   sEffect: +2,000,000 BBT/s
   autoIncrAmount: 2000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 900000000
 --- !u!1 &2000179632
 GameObject:
@@ -49634,7 +49445,7 @@ RectTransform:
   - {fileID: 1809012938}
   - {fileID: 2043821002}
   m_Father: {fileID: 2137305969}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -50585,13 +50396,13 @@ MonoBehaviour:
   tName: {fileID: 1174026922}
   tEffect: {fileID: 886650745}
   tCost: {fileID: 135935679}
+  index: 12
   buyButton: {fileID: 998135894}
   locker: {fileID: 1531739398}
   sName: Integrated Ice Cream
   sEffect: +140,000 BBT/s
   autoIncrAmount: 140000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 90000000
 --- !u!1 &2062143035
 GameObject:
@@ -50929,13 +50740,13 @@ MonoBehaviour:
   tName: {fileID: 121240291}
   tEffect: {fileID: 1981792943}
   tCost: {fileID: 231262985}
+  index: 20
   buyButton: {fileID: 2110404569}
   locker: {fileID: 1351759068}
   sName: Dimensionless Fruit
   sEffect: +120,000,000 BBT/s
   autoIncrAmount: 120000000
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 200000000000
 --- !u!1 &2076207796
 GameObject:
@@ -52028,13 +51839,13 @@ MonoBehaviour:
   tName: {fileID: 1588726724}
   tEffect: {fileID: 1008403150}
   tCost: {fileID: 398455697}
+  index: 6
   buyButton: {fileID: 719453925}
   locker: {fileID: 2013336505}
   sName: Super Milk Tea
   sEffect: +200 BBT/s
   autoIncrAmount: 200
   manuIncrAmount: 0
-  qLvl: 0
   baseCost: 80000
 --- !u!1 &2128450665
 GameObject:
@@ -52189,7 +52000,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 48300489}
   - {fileID: 1513528073}
   - {fileID: 1068251750}
   - {fileID: 1743471948}
@@ -52203,7 +52013,7 @@ RectTransform:
   - {fileID: 1126439890}
   - {fileID: 1046743756}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

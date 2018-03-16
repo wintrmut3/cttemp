@@ -10,6 +10,8 @@ public class disp_item : MonoBehaviour {
 	public Text tEffect; //item effect description
 	public Text tCost; //item cost
 
+    public int index;// 0 -24
+
 	public GameObject buyButton;//button to buy
 	public Image locker;//lock conceal
 
@@ -20,18 +22,21 @@ public class disp_item : MonoBehaviour {
 
 	public long autoIncrAmount;
 	public long manuIncrAmount;
-	public int qLvl; // the amount owned
 	public long baseCost; //cost for first unit
 	private long cost;//cost after mutliplier
 
-	// Update is called once per frame
-	void Update () {
-		cost = (long)((baseCost*(Mathf.Pow(globVar.multiplier,qLvl)))); //managing costs
+    void Awake()
+    {
+        DontDestroyOnLoad(transform.gameObject);
+    }
+    // Update is called once per frame
+    void Update () {
+		cost = (long)((baseCost*(Mathf.Pow(globVar.multiplier, globVar.qItem[index])))); //managing costs
 
 		locker = locker.GetComponent<Image>();
 		Color c = locker.color;
 
-		tLvl.text = qLvl+"";
+		tLvl.text = globVar.qItem[index]+""; //numowned are stored in an array.
 		tName.text = sName;
 		tEffect.text  = sEffect;
 		tCost.text = ""+ (cost).ToString("n0");
@@ -45,7 +50,7 @@ public class disp_item : MonoBehaviour {
             buyButton.GetComponent<Button>().interactable = true;
             locked = false;
         }
-        if (qLvl != 0)
+        if (globVar.qItem[index] != 0)
         {
             locked = false;
         }
@@ -61,6 +66,9 @@ public class disp_item : MonoBehaviour {
 	}
 	public void Buy(){ //activatebybutton
 		globVar.drinks -= cost;
-		qLvl +=1;
+		globVar.qItem[index] ++;
+        Debug.Log("An item was bought. New qitem is " + globVar.qItem[index]);
 	}
+
+
 }
